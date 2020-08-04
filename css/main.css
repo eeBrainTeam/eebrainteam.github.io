@@ -200,7 +200,7 @@ Primary use:
 .m2-txt1 {
   font-family: Poppins-Regular;
   font-size: 24px;
-  color: #999;
+  color: rgb(192, 192, 192);
   line-height: 1.2;
 }
 
@@ -211,7 +211,7 @@ Primary use:
 .l1-txt1 {
   font-family: PlayfairDisplay-BlackItalic;
   font-size: 90px;
-  color: #333;
+  color: rgb(255, 255, 255);
   line-height: 1.1;
 }
 
@@ -254,7 +254,7 @@ Primary use:
 
 /*//////////////////////////////////////////////////////////////////
 [ Background ]*/
-.bg0 {background-color: #fff;}
+.bg0 {background-color: rgb(0, 0, 0);}
 
 .bg-img1 {
   background-position: center;
@@ -328,7 +328,7 @@ Primary use:
 
 /*---------------------------------------------*/
 .how-social {
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 22px;
   background-color: #ccc;
   border-radius: 50%;
