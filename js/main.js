@@ -4,7 +4,7 @@
     [ Simple slide100 ]*/
 
     $('.simpleslide100').each(function(){
-        var delay = 10000;
+        var delay = 6000;
         var speed = 1000;
         var itemSlide = $(this).find('.simpleslide100-item');
         var nowSlide = 0;
