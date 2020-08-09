@@ -17,13 +17,9 @@ Primary use:
 }
 
 @font-face {
-  font-family: Poppins-Regular;
-  src: url('../fonts/Poppins/Poppins-Regular.ttf'); 
-}
+  font-family: Poppins-ThinItalic;
+  src: url('../fonts/Poppins/Poppins-ThinItalic.ttf');
 
-@font-face {
-  font-family: Poppins-Medium;
-  src: url('../fonts/Poppins/Poppins-Medium.ttf'); 
 }
 
 
@@ -71,21 +67,8 @@ Primary use:
 [ S-Text 0 - 15 ]*/
 
 /*---------------------------------------------*/
-.s2-txt1 {
-  font-family: Poppins-Medium;
-  font-size: 15px;
-  color: #333;
-  line-height: 1.2;
-}
-
-
-
-/*//////////////////////////////////////////////////////////////////
-[ M-Text 16 - 25 ]*/
-
-/*---------------------------------------------*/
 .m2-txt1 {
-  font-family: Poppins-Regular;
+  font-family: Poppins-ThinItalic;
   font-size: 24px;
   color: rgb(192, 192, 192);
   line-height: 1.2;
@@ -152,10 +135,10 @@ Primary use:
 /*==================================================================
  HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW 
 ==================================================================*/
-.placeholder0::-webkit-input-placeholder { color: #999999;}
-.placeholder0:-moz-placeholder { color: #999999;}
-.placeholder0::-moz-placeholder { color: #999999;}
-.placeholder0:-ms-input-placeholder { color: #999999;}
+.placeholder0::-webkit-input-placeholder { color: #000000;}
+.placeholder0:-moz-placeholder { color: #000000;}
+.placeholder0::-moz-placeholder { color: #000000;}
+.placeholder0:-ms-input-placeholder { color: #000000;}
 
 
 /*---------------------------------------------*/
@@ -172,7 +155,7 @@ Primary use:
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(0,0,0,0.5);
+  background: rgb(0, 0, 0);
 }
 
 /*---------------------------------------------*/
@@ -200,13 +183,13 @@ Primary use:
 .how-social {
   color: rgb(0, 0, 0);
   font-size: 22px;
-  background-color: #ccc;
+  background-color: rgb(255, 255, 255);
   border-radius: 50%;
 }
 
 .how-social:hover {
   background-color: #000000;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 
